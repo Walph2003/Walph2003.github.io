@@ -1,0 +1,89 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: #0E5E6F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .card{
+  background-color: #E5D9B6;
+  width: 1000px;
+  height: 500px;
+  position: relative;
+  border-radius: 20px;
+}
+
+img{
+  border-radius: 50%;
+  width: 250px;
+  position: absolute;
+  top: -120px;
+  left: 50%;
+  transform: translate(-50%);
+  border: 5px solid #2192FF;
+}
+
+.profiletitle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 130px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.cardbody{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+}
+
+.cardbody ul li {
+  list-style: none;
+}
+
+.line{
+    width: 1px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+}
+
+.socials{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+
+i{
+  font-size: 45px;
+}
+
+.fa-square-facebook{
+  color: #0f93f1;
+}
+
+.fa-square-instagram{
+  color: #e95950;
+}
+
+.fa-tiktok{
+  color: black;
+}
+
+.socials small{
+  font-size: 20%;
+  font-weight: 900;
+  
+}
